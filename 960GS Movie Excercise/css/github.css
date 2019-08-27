@@ -1,0 +1,116 @@
+header{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    background-color: black
+}
+body{
+    margin: 0;
+}
+.tabs{
+    display: flex;
+    margin: 3vh;
+    margin-bottom: 0;
+}
+header > input{
+    margin-left: 2vh;
+    border: none;
+    background-color: rgb(43, 40, 40);
+    height: 2em;
+    width: 40vh;
+    border-radius: 2px;
+}
+ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+}
+
+header ul li{
+    margin-left: 2vh;
+    color: white;
+    display: inline-block;
+}
+header ul li a{
+   color: white;
+   font-style: normal;
+   text-decoration: none;
+}
+header ul li a:hover{
+    color: rgb(126, 130, 134)
+}
+#profile_image{
+    margin: 0;
+    height: fit-content;
+    width: min-content;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 2px;
+}
+main > p {
+    display: flex;
+    font-size: 13px;
+    margin-left: 3px;
+}
+.tabs ul{
+    margin-bottom: 0;
+}
+.tabs ul li{
+    margin-right: 5vh;
+    margin-left: 2vh;
+    color: rgb(160, 158, 158);
+    display: inline-block;
+    padding-bottom: 2vh
+}
+.div-options ul li:hover{
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+    
+}
+.PersonInfo{
+    /* margin-left: 3vh; */
+}
+.PersonInfo h2{
+    margin-bottom: 0;
+    font-size: 5vh;
+}
+.PersonInfo p{
+    margin-top: 0;
+    color: grey;
+    font-size: 3vh;
+}
+#editProfile{
+    width: 45vh;
+    color: black;
+    background-color: #FFFFFF;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 2px;
+}
+.repos-div{
+    margin-left: 3em;
+    margin-top: 2em;
+
+}
+.repos-div p{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.repo-details{
+    flex-basis: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+.repo-details b{
+    font-size: 20px;
+    color: rgb(82, 82, 230)
+}
+.repo-details b:hover{
+    border-bottom: 1px solid rgb(82, 82, 230);
+    cursor: pointer;
+}
+.repo-details p{
+    font-size: 15px
+}
